@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sudokus</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+        <link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/t/icono-del-sudoku-en-el-fondo-blanco-ejemplo-simple-elemento-concepto-tiempo-libre-de-dise%C3%B1o-editable-s%C3%ADmbolo-puede-ser-uso-para-141338975.jpg"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../index.html">INICIO </a>
+                    </div>
+                </div>  
+            </nav>
+
+            <div class="jumbotron">
+                <div class="text-center">
+                    <h1>SuDoKus</h1>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div id="box">
+                <div class="col-md-8">
+                    <div class="l l0">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l1">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l2">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l3">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l4">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l5">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l6">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l7">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                    <div class="l l8">
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                        <span><input readonly type="text"></span>
+                    </div>
+                </div>       
+
+                <div class="col-md-4 jugar">
+                    <div id="btnBox">
+                        <button class="btn-success" id="easy">FACIL</button>
+                        <button class="btn-primary" id="middle">MEDIO</button>
+                        <button class="btn-danger" id="hard">DIFICIL</button>
+                    </div>
+                    
+                    <p><b>¡Indique el nivel de dificultad del juego para poder comenzar!</b></p>
+                    
+                    <br/>
+                    
+                    <div id="clockBox">
+                        <span class="fhora" id="clock">00:00</span>
+
+                        <button class="btn-warning hora" id="check">VERIFICAR</button>
+                        <span style="padding-left: 10px">Mejor tiempo: <b id="record"></b></span>
+                    </div>
+                    
+                    <a href="otro.html"><b>INICIAR UN NUEVO SUDOKU</b></a>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+            <br/>
+            <hr>
+
+            <footer>
+                <p class="text-center">&copy; Luanda Toledo 2019 </p>
+            </footer>
+        <script src="../js/vendor/jquery-1.11.2.js"></script>
+        <script src="../js/sudokus/generador.js"></script>
+    </body>
+
+</html>

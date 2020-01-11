@@ -1,0 +1,120 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.fondoGris {
+    background-color: #eee;
+}
+
+.central {
+    font-size: 20px;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+li{
+    margin: 2em;
+    font-size: 20px;
+}
+
+.otraLista {
+    font-size: 20px;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.OtraVez {
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.preg {
+    background-color: #a94442;
+    color: #eee;
+}
+
+
+
+.PrimerImg {
+
+}
+
+.SegundaImg {
+    float: left;
+}
+
+.SegundaImg:hover {
+    filter: saturate (150%);
+} 
+
+.TercerImg {
+    float: right;
+}
+
+.TercerImg:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.CuartaImg:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #eee;
+    -webkit-box-shadow: 0px 0px 15px 15px #888;
+    transform: rotate (360deg);
+    -webkit-transform: rotate (360deg);
+}
+
+
+
+.hey {
+    background-color: #398439;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+}
+
+.hey2 {
+    background-color: #67b168;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+}
+
+.hey3 {
+    background-color: #67b168;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+}
+
+.hey4 {
+     background-color: #eee;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+
+}
