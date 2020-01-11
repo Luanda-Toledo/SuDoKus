@@ -37,4 +37,4 @@ Pagina de Sudokus online utilizando: JavaScript, HTML, CSS y Bootstrap.
 
 ## Notas:
 
-Por el momento la seccion para jugar al sudoku solo contiene un generador de los mismo, proximamente se agregara la actualizacion con el solucionador!
+Por el momento la seccion para jugar al sudoku solo contiene un generador, proximamente se agregara la actualizacion con el solucionador de sudokus!
